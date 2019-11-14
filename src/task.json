@@ -1,0 +1,19 @@
+{
+    "tareas": [
+        { "title" : "primer tarea",
+          "responsible" : "Julian",
+          "description" : "crear app en react",
+          "priority": "alta"
+        },
+        { "title" : "segunda tarea",
+            "responsible" : "Julian",
+            "description" : "continuar con la app y aprender",
+            "priority": "media"
+        },
+        { "title" : "tercera tarea",
+            "responsible" : "Back End",
+            "description" : "mezclar con firebase hasta aprender Node.js",
+            "priority": "alta"
+        }
+    ]
+}
