@@ -39,6 +39,7 @@ handleAddTask(task){
         <div className="col-md-3">
         <div className="card mt-4">
           <div className="card-header">
+          <span className="btn btn-danger far fa-times-circle float-right" onClick={this.deleteTask.bind(this, i)}></span> 
             <h4>{tareas.title}</h4>
             <span className="card-subtitle text-muted">{tareas.priority}</span>
           </div>
@@ -47,21 +48,21 @@ handleAddTask(task){
           </div>
           <footer className="card-footer">
                 {tareas.responsible}
-          <button className="btn btn-danger" onClick={this.deleteTask.bind(this, i)}></button>
           </footer>
         </div>
         </div>
       )
     });
+    document.title = `To do tasks - ${this.state.tareas.length}`;
   return (
     <div className="App">
       <nav className="navbar navbar-dark bg-dark">
-        <a className="text-white" href=""> Tareas - <span className="badge badge-pill badge-light ml-2">{this.state.tareas.length}</span></a>
+        <p className="text-white" > Task to do - <span className="badge badge-pill badge-light ml-2">{this.state.tareas.length}</span></p>
       </nav>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <TaskForms onAddTask={this.handleAddTask}></TaskForms>
           { task }

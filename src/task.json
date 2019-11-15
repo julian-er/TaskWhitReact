@@ -1,19 +1,24 @@
 {
     "tareas": [
-        { "title" : "primer tarea",
-          "responsible" : "Julian",
-          "description" : "crear app en react",
-          "priority": "alta"
+        { "title" : "React",
+          "responsible" : "Julián",
+          "description" : "crear app en react, para aprender como funciona",
+          "priority": "High"
         },
-        { "title" : "segunda tarea",
-            "responsible" : "Julian",
-            "description" : "continuar con la app y aprender",
-            "priority": "media"
+        { "title" : "React",
+            "responsible" : "Julián",
+            "description" : "aprender mas sobre los componentes y cómo reutilizarlo con los datos",
+            "priority": "Medium"
         },
-        { "title" : "tercera tarea",
-            "responsible" : "Back End",
-            "description" : "mezclar con firebase hasta aprender Node.js",
-            "priority": "alta"
+        { "title" : "Firebase",
+            "responsible" : "Julián",
+            "description" : "conectar con firebase para guardar y traer info hasta aprender Node.js",
+            "priority": "Medium"
+        },
+        { "title" : "Firebase",
+            "responsible" : "Julián",
+            "description" : "cuando conectes firebase, elimina el task.json",
+            "priority": "Medium"
         }
     ]
 }
