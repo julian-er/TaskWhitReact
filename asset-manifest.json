@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TaskWhitReact/static/css/main.97474150.chunk.css",
+    "main.js": "/TaskWhitReact/static/js/main.ceeec989.chunk.js",
+    "main.js.map": "/TaskWhitReact/static/js/main.ceeec989.chunk.js.map",
+    "runtime-main.js": "/TaskWhitReact/static/js/runtime-main.c04c1144.js",
+    "runtime-main.js.map": "/TaskWhitReact/static/js/runtime-main.c04c1144.js.map",
+    "static/js/2.210bd794.chunk.js": "/TaskWhitReact/static/js/2.210bd794.chunk.js",
+    "static/js/2.210bd794.chunk.js.map": "/TaskWhitReact/static/js/2.210bd794.chunk.js.map",
+    "index.html": "/TaskWhitReact/index.html",
+    "precache-manifest.91907c16b2607d659345b8ba3b1c86d1.js": "/TaskWhitReact/precache-manifest.91907c16b2607d659345b8ba3b1c86d1.js",
+    "service-worker.js": "/TaskWhitReact/service-worker.js",
+    "static/css/main.97474150.chunk.css.map": "/TaskWhitReact/static/css/main.97474150.chunk.css.map",
+    "static/media/logo.svg": "/TaskWhitReact/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c04c1144.js",
+    "static/js/2.210bd794.chunk.js",
+    "static/css/main.97474150.chunk.css",
+    "static/js/main.ceeec989.chunk.js"
+  ]
+}
