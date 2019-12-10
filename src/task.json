@@ -2,23 +2,19 @@
     "tareas": [
         { "title" : "React",
           "responsible" : "Julián",
-          "description" : "crear app en react, para aprender como funciona",
+          "description" : "crear app de tareas en react",
           "priority": "High"
         },
         { "title" : "React",
             "responsible" : "Julián",
-            "description" : "aprender mas sobre los componentes y cómo reutilizarlo con los datos",
+            "description" : "Hostear en github pages",
             "priority": "Medium"
         },
         { "title" : "Firebase",
             "responsible" : "Julián",
-            "description" : "conectar con firebase para guardar y traer info hasta aprender Node.js",
+            "description" : "Aprender React-Native",
             "priority": "Medium"
         },
-        { "title" : "Firebase",
-            "responsible" : "Julián",
-            "description" : "cuando conectes firebase, elimina el task.json",
-            "priority": "Medium"
-        }
+
     ]
 }
